@@ -32,6 +32,6 @@ func GetRate(currency string) (*datatypes.Rate, error) {
 	} else {
 		return nil, fmt.Errorf("status code recived: %v", res.StatusCode)
 	}
-	rate := datatypes.Rate{Currency: currency, Price: response.Bid}
+	rate := datatypes.Rate{Currency: currency, Price: response.Bid, PercentChange: response.PriceChangePercentage}
 	return &rate, nil
 }

@@ -1,7 +1,7 @@
 package datatypes
 
 type Rate struct {
-	Currency string
-	Price    float64
-	//PriceChangePercentage string
+	Currency      string
+	Price         float64
+	PercentChange string
 }
