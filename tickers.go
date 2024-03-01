@@ -31,4 +31,5 @@ var Tickers = []string{
 	"STX",
 	//"ETC",
 	//"LEO",
+	//"ALGO",
 }
