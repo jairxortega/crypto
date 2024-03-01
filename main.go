@@ -68,6 +68,9 @@ func getCurrencyData(currency string) {
 		dashes := strings.Repeat("-", dashesBefore)
 
 		dashesAfter := 18 - len(rate.Currency) - len(dashes) - len(priceStr)
+		if strings.HasPrefix(rate.PercentChange, "-") {
+			dashesAfter -= 1 // Subtract one more dash if percent change is negative
+		}
 		if dashesAfter < 1 {
 			dashesAfter = 1 // Ensure at least one dash
 		}
