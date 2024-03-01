@@ -7,5 +7,6 @@ Planned upgrades:
 - Add Sorting by percent change
 - Edit random chars when price is updated
 
-![cryptoterminal](https://github.com/jairxortega/crypto/assets/104592853/2b450aae-db93-4fc7-9dfe-316092369790)
+![terminal](https://github.com/jairxortega/crypto/assets/104592853/e8a32905-ba9c-4cb6-8fd7-f02882379055)
+
 
